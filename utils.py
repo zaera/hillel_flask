@@ -2,7 +2,6 @@ from faker import Faker
 import csv
 import requests
 
-
 def users(number: int = 100) -> str:
     fake = Faker()
     user_list=''
